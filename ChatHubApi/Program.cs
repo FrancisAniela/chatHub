@@ -38,7 +38,7 @@ app.UseCors(builder =>
         .AllowAnyHeader()
         .AllowAnyMethod()
         .AllowCredentials()
-        .WithOrigins("http://localhost:4250");
+        .WithOrigins("http://localhost:4250", "https://pepinosbox.club:8085");
 });
 
 
